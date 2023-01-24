@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 360px;
+  width: 400px;
+  border-radius: 12px;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  font-family: 'Roboto';
+}
+.count-heading {
+  color: #0f172a;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.count-msg {
+  color: #334155;
+  font-size: 24 px;
+  font-weight: 400;
+}
+.increment-button {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-size: 12px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 6px;
+}
+.random-msg {
+  font-size: 12px;
+  color: #334155;
+  font-weight: 400;
+}
